@@ -1,3 +1,14 @@
+ABOUT FORK
+============
+
+The python_lcd repo was forked to share the small changes I made:
+
+Removed all comments to decrease file size.
+Changed the low() and high() functions from Pin, to off() and on().
+Now it actually works fine on NodeMCU Amica, tested on "MicroPython v1.9.3-8-g63826ac5c on 2017-11-01; ESP module with ESP8266".
+
+Credit and thanks to dhylands, he/she actually made this.
+
 lcd_api and i2c_lcd
 ===============
 
